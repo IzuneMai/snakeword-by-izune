@@ -9,7 +9,7 @@
         <meta property="og:title" content="0" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <title>Snakeword</title>
-        <!-- <link rel="stylesheet" href="bootstrap-4.6.1-dist"> -->
+
         <link rel="stylesheet" href="./css/main.css" />
 
 <!-- Latest compiled and minified CSS -->
@@ -24,8 +24,7 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
-
-    </head>
+</head>
 
 <body style="background-color: rgb(230, 230, 230);">
         <!-- <div id="fb-root"></div>
@@ -57,7 +56,6 @@
                 <li class="nav-item active">
                     <a href="#" class="nav-link">New Game</a>
                 </li>
-
                 <li class="nav-item ">
                     <a class="nav-link" href="#">Russian</a>
                 </li>
@@ -72,8 +70,7 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Arabian</a>
-                </li>
-                
+                </li>              
             </ul>
         </div>
     </nav>
@@ -82,7 +79,7 @@
     <!-- Поле ввода -->
     <div class="conteiner" >
         <div id="cont1">
-            <button type="button" class="btn btn-outline-dark" title="0">0</button>
+            <button type="button" class="btn btn-outline-dark" title="0" id="points"></button>
         
             <input readonly type="text " id="word" >    
 
@@ -92,8 +89,10 @@
                 </svg>
             </button>
         </div>
+        <div id="gameplace"></div>
     </div>  
 
-
+    <script src="/js_main/dictionary.js"></script>
+    <script src="/js_main/main_game.js"></script>
     </body>
 </html>

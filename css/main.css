@@ -1,5 +1,17 @@
 
-
+.cell{
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    width: 31px;
+    height: 30px;
+    padding: 5px 1px 0px 1px;
+    margin: 2px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 19px;
+}
 
 #cont1{display: flex; justify-content: center; }
 
